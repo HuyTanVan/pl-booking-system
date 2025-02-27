@@ -1,0 +1,3 @@
+[submodule "plbooking-frontend"]
+	path = plbooking-frontend
+	url = https://github.com/HuyTanVan/plbooking-frontend.git
