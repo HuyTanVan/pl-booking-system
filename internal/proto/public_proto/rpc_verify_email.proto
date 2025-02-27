@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package public_pb;
+
+option go_package = "plbooking_go_structure1/internal/pb/public_proto";
+
+message VerifyEmailRequest {
+    int32 user_id = 1;
+    string token = 2;
+}
+
+message VerifyEmailResponse {
+    bool is_verified = 1;
+}

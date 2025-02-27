@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package private_pb; // private protobuf package
+
+// import "google/api/annotations.proto";
+import "private_proto/rpc_update_ticket_prices.proto";
+
+
+option go_package = "plbooking_go_structure1/internal/pb/private_proto";
+
+service PrivatePremierLeagueBooking{
+    rpc UpdateTicketPrices (UpdateTicketPricesRequest) returns (UpdateTicketPricesResponse) {
+
+    }
+    //     option (google.api.http) ={
+    //         put: "/gapi/v1/tickets/update_ticket_prices"
+    //         body: "*"
+    //     };
+    // }
+}

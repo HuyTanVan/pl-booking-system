@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package public_pb; // public protobuf package
+
+import "google/api/annotations.proto";
+import "public_proto/rpc_create_user.proto";
+import "public_proto/rpc_login_user.proto";
+import "public_proto/rpc_verify_email.proto";
+
+
+option go_package = "plbooking_go_structure1/internal/pb/public_proto";
+
+service PremierLeagueBooking{
+    rpc CreateUser (CreateUserRequest) returns (CreateUserResponse) {
+        option (google.api.http) ={
+            post: "/api/v1/users/create_user"
+            body: "*"
+        };
+    }
+    rpc LoginUser (LoginUserRequest) returns (LoginUserResponse) {
+        option (google.api.http) ={
+            post: "/api/v1/users/login_user"
+            body: "*"
+        };
+    }
+    rpc VerifyEmail (VerifyEmailRequest) returns (VerifyEmailResponse) {
+        option (google.api.http) ={
+            get: "/api/v1/users/verify_email"
+        };
+    }
+}

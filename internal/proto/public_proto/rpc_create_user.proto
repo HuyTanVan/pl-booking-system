@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package public_pb; 
+
+import "public_proto/user.proto";
+
+option go_package = "plbooking_go_structure1/internal/pb/public_proto";
+
+message CreateUserRequest {
+    string email = 1;
+    string password =2;
+    string repeat_password=3;
+}
+
+message CreateUserResponse {
+    User user = 1;
+}

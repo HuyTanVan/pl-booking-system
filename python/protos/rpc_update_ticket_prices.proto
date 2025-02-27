@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package private_pb;  
+
+message UpdateTicketPricesRequest {
+    int32 match_id = 1;
+}
+
+message UpdateTicketPricesResponse {
+    bool status = 1;
+    string message = 2;
+}
+
+service PrivatePremierLeagueBooking {
+    rpc UpdateTicketPrices (UpdateTicketPricesRequest) returns (UpdateTicketPricesResponse);
+}

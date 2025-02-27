@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS "idempotency" CASCADE;
+DROP TYPE IF EXISTS "header_pair";
