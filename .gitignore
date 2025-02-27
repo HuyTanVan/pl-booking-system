@@ -39,7 +39,6 @@ go.sum
 # go
 config/*.yaml
 
-
 # python
 python/command_note.txt
 python/venv/
