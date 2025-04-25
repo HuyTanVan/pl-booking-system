@@ -13,22 +13,22 @@ This is a simulation project for a Premier League Booking System, designed to ma
 
 ## Setup
 
-- [Setup Guide](app/doc/SETUP.md)
+
 
 
 ## Project Structure
 
-- [Project Structure](app/doc/STRUCTURE.md)
+
   
 
 ## API Endpoints
 
-- [End points Guide](app/doc/ENDPOINTS.md)
+
 
 
 ## Database Schema
 
-- [Database Schema](app/doc/Schema.sql)
+
 
 
 ## Full documentation
