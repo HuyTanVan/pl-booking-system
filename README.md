@@ -15,9 +15,10 @@ This is a simulation web application designed for a Premier League Booking Syste
 
 
 
+
 ## Project Structure
 
-
+- [Setup Guide](docs/STRUCTURE.md)
   
 
 ## API Endpoints
