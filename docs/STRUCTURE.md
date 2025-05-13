@@ -12,7 +12,7 @@
 - `pkg`:
 
 - `python`: Contains Python-based microservices and related scripts
-- `response`: Go-based custom response utilities for standardized client responses(Not Implemented)
+- `response`: Custom response utilities for standardized client responses in Go(Not Implemented)
 - `third_party`:
   - `docker`: Contains Docker setups for external services like Nginx, Kafka, and Redis
     - `nginx`: Nginx Dockerfile and configuration for Load Balancing
