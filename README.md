@@ -1,42 +1,61 @@
-# Premier League Booking Simulation System
+# go-coffeeshop
 
-This is a simulation web application designed for a Premier League Booking System that can handle high-concurrency traffic. Built with a microservices architecture using Go and Python, the system manages ticket bookings efficiently and supports real-time updates, dynamic pricing, and staff ticket scanning at entry points.
-
-## Features
-
-- User Authentication with JWT
-- Background task processing with Asynq Go(e.g., email notifications, price updates)
-- gPRC and REST APIs integrations
-- Real-time dynamic ticket pricing (Python + Celery + Redis)
+An event-driven microservices coffee shop application has been written in Golang and deployed using Nomad, Consul Connect, Vault, and Terraform.
 
 
-## Setup
+## Technical stack
+
+- Backend building blocks
+  - [grpc-ecosystem/grpc-gateway/v2](https://github.com/grpc-ecosystem/grpc-gateway)
+  - [labstack/echo/v4](https://github.com/labstack/echo)
+  - [rabbitmq/amqp091-go](https://github.com/rabbitmq/amqp091-go)
+  - [kyleconroy/sqlc](https://github.com/kyleconroy/sqlc)
+    - [pq](github.com/lib/pq)
+  - [golang-migrate/migrate/v4](https://github.com/golang-migrate/migrate)
+  - Utils
+    - [google/wire](github.com/google/wire)
+    - [ilyakaznacheev/cleanenv](https://github.com/ilyakaznacheev/cleanenv)
+    - golang.org/x/exp/slog
+      - [sirupsen/logrus](https://github.com/sirupsen/logrus)
+    - [samber/lo](https://github.com/samber/lo)
+    - [automaxprocs/maxprocs](go.uber.org/automaxprocs/maxprocs)
+    - [stretchr/testify](github.com/stretchr/testify)
+    - golang/glog
+    - google/uuid
+    - google.golang.org/genproto
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+- Infrastructure
+  - Postgres, RabbitMQ
+  - Hashicorp Nomad, Consul (Connect), Vault, Terraform
+  - docker and docker-compose
+  - devcontainer for reproducible development environment
+
+## Premier League Booking
+
+
+## Screenshots
+
+### Home screen
+
+![home_screen](docs/homepage.png)
+
+### View Tickets screen
+
+![view_tickets](docs/payment_screen.png)
+
+### Review Checkout and Payment screen
+
+![review_checkout_and_payment](docs/review_checkout.png)
 
 
 
 
 
-## Project Structure
-
-- [Setup Guide](docs/STRUCTURE.md)
-  
-
-## API Endpoints
-
-
-
-
-## Database Schema
-
-
-
-
-## Full documentation
-
-- [Full Documentation](app/doc/BACKEND_DOCUMENTATION.md)
-
-## Contributing
-
-This is a SUNY Brockport ACM team project. Please refer to the project guidelines for contribution instructions.
-
-## License
+## Credits
+- [readme-structure](https://github.com/thangchung/go-coffeeshop/blob/main/README.md)
+- [project-layout](https://github.com/golang-standards/project-layout)
+- [repository-structure](https://peter.bourgon.org/go-best-practices-2016/#repository-structure)
+- [go-build-template](https://github.com/thockin/go-build-template)
+- [go-clean-template](https://github.com/evrone/go-clean-template)
+- [emsifa/tailwind-pos](https://github.com/emsifa/tailwind-pos)
