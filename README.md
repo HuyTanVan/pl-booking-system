@@ -40,7 +40,19 @@
 
 ### View Tickets screen
 
-![view_tickets](docs/payment_screen.png)
+![view_tickets](docs/view_tickets.png)
+
+### Proceed Payment screen
+
+![view_tickets](docs/proceed_payment.png)
+
+### Review Checkout screen
+
+![view_tickets](docs/review_checkout.png)
+
+### Payment screen
+
+![view_tickets](docs/payment.png)
 
 ### Review Checkout and Payment screen
 
