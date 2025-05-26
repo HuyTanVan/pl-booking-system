@@ -58,8 +58,9 @@
 
 ![review_checkout_and_payment](docs/review_checkout.png)
 
+## Cache Strategies Performance Comparison
 
-
+![cache_performance_comparison](docs/cache_layers.png)
 
 
 ## Credits
