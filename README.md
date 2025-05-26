@@ -60,7 +60,7 @@
 
 ## Cache Strategies Performance Comparison
 
-![cache_performance_comparison](docs/cache_layers.png)
+![cache_performance_comparison](docs/caching_layers.png)
 
 
 ## Credits
