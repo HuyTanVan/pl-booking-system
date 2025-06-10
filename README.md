@@ -45,9 +45,15 @@
 
 ![view_tickets](docs/payment.png)
 
-### Review Checkout and Payment screen
+### Review Checkout
 
 ![review_checkout_and_payment](docs/review_checkout.png)
+
+### Payment screen
+[Stripe Test Card Numbers](https://docs.stripe.com/testing)
+![review_checkout_and_payment](docs/review_checkout.png)
+
+
 
 ## Cache Strategies Performance Comparison
 
