@@ -51,6 +51,7 @@
 
 ### Payment screen
 [Stripe Test Card Numbers](https://docs.stripe.com/testing)
+
 ![review_checkout_and_payment](docs/review_checkout.png)
 
 
