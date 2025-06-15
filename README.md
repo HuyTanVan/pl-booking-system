@@ -31,15 +31,15 @@
 
 ### View Tickets screen
 
-![view_tickets](docs/view_tickets.png)
+![view_tickets](docs/viewtickets.png)
 
 ### Proceed Payment screen
 
-![view_tickets](docs/proceed_payment.png)
+![view_tickets](docs/proceedpayment.png)
 
 ### Review Checkout screen
 
-![view_tickets](docs/review_checkout.png)
+![view_tickets](docs/reviewcheckout.png)
 
 ### Payment screen
 
@@ -47,7 +47,7 @@
 
 ### Review Checkout
 
-![review_checkout_and_payment](docs/review_checkout.png)
+![review_checkout_and_payment](docs/reviewcheckout.png)
 
 ### Payment screen
 [Stripe Test Card Numbers](https://docs.stripe.com/testing)
