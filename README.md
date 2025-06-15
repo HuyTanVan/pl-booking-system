@@ -35,19 +35,19 @@
 
 ### Proceed Payment screen
 
-![view_tickets](docs/proceedpayment.png)
+![proceed_payment](docs/proceedpayment.png)
 
 ### Review Checkout screen
 
-![view_tickets](docs/reviewcheckout.png)
+![checkout](docs/checkout.png)
 
 ### Payment screen
 
-![view_tickets](docs/payment.png)
+![payment](docs/payment.png)
 
 ### Review Checkout
 
-![review_checkout_and_payment](docs/reviewcheckout.png)
+![payment_success](docs/paymentsuccess.png)
 
 ### Payment screen
 [Stripe Test Card Numbers](https://docs.stripe.com/testing)
