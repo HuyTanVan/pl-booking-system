@@ -60,12 +60,3 @@
 
 ![cache_performance_comparison](docs/caching_layers.png)
 
-
-## Credits
-- [readme-structure](https://github.com/thangchung/go-coffeeshop/blob/main/README.md)
-- [project-layout](https://github.com/golang-standards/project-layout)
-- [repository-structure](https://peter.bourgon.org/go-best-practices-2016/#repository-structure)
-- [go-build-template](https://github.com/thockin/go-build-template)
-- [go-clean-template](https://github.com/evrone/go-clean-template)
-- [emsifa/tailwind-pos](https://github.com/emsifa/tailwind-pos)
-- [thanhchung](https://github.com/thangchung/go-coffeeshop)
